@@ -1,0 +1,121 @@
+
+
+Project on building a data platform for reporting  and prediction of the COVID 19 outbreak
+
+---	Data Engg Stack in Azure
+Overview of the Project:
+1)Environment Setup
+2)Ingestion - Blob
+3)Ingestion - HTTP
+4)Data Flow
+5)Data Prep
+6)HDInsight
+7)Databricks
+8)Copy to SQL
+9)Orchestration
+10)Monitoring
+11)Reports
+
+Azure Data Factory
+--A fully managed, serverless data integration solution for ingesting, 
+preparing and transforming all of your data at scale.
+
+Data Problem:
+
+Data Sources ---- Ingest ---  Transform/Analyse --- Publish  --- Data Consumers
+
+Azure Data Factory is not:
+
+Data Migration Tool
+Data Streaming Service
+Suitable for Complex Data Transformations
+Data Storage Service
+
+
+Data Lake to be built with the following data to aid 
+Data Scientists to predict the spread of the virus/ 
+mortality
+Confirmed cases
+Mortality
+Hospitalization/ ICU Cases
+Testing Number
+
+=========================
+
+Data Warehouse to be built with the following data 
+to aid Reporting on Trends
+Confirmed cases
+Mortality
+Hospitalization/ ICU Case
+
+
+Sources of Data
+============
+
+Data Warehouse to be built with the following data 
+to aid Reporting on Trends
+Confirmed cases
+Mortality
+Hospitalization/ ICU Case
+
+
+Solution Architecture
+=====================
+
+
+
+
+
+Storage Solutions
+=================
+
+***Key Factors to consider while deciding storage solutions by Data Engineers:
+
+Structure of the data
+
+
+
+How often is the data accessed?
+How quickly do we need to serve?
+Need to run simple queries? 
+Need to run heavy analytical workload
+Access from multiple regions?
+
+
+Azure Databases
+================
+Azure SQL Database
+Azure Database for MySQL
+Azure Database for PostgreSQL
+VM Images with Oracle, SQL Server etc
+Azure Database for MariaDB
+
+
+Azure Storage Account
+====================
+Blob Storage
+File Storage
+Disk Storage
+Table Storage
+Queue Storage
+
+
+Azure Data Lake
+====================
+Azure Data Lake Storage Gen2
+Enhance Performance
+Enhance Management
+Better Security
+
+
+Azure Cosmos DB
+-------------------
+Globally distributed
+Multi Model
+High Throughput
+
+
+Storage solutions used in the project
+=====================================
+Azure SQL Database
+Azure Data Lake Storage Gen2
